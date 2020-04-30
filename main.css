@@ -1,16 +1,28 @@
-/***** BASE STYLES*****/
+/* BASE STYLES */
 
 @font-face {
   src: url(fonts/wisdom-script.otf);
   font-family: wisdom;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
   padding-left: 20px;
-  width: 1200px;
-  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 1200px;
+  height: 600px; */
 }
+
+
+/* MOBILE DEFAULTS */
+
 
 /* div {
   display: inline-block;
@@ -64,7 +76,7 @@ nav {
 
 nav ul li {
   display: inline-block;
-  font-size: 14px;
+  font-size: .875em;
   line-height: 23px;
   text-transform: uppercase;
   padding: 8px;
@@ -78,7 +90,7 @@ nav ul li {
 h2 {
   text-transform: uppercase;
   color: #77a466;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 23px;
   font-weight: normal;
 }
@@ -86,7 +98,7 @@ h2 {
 #welcome p {
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 25px;
 }
 
@@ -100,7 +112,7 @@ h2 {
 
 #tiles h3 {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: .75em;
   line-height: 25px;
 }
 
@@ -110,7 +122,7 @@ h2 {
 }
 
 #tiles li {
-  padding: 8px;
+  padding: .5em;
   color: #77a466;
 }
 
@@ -123,17 +135,17 @@ h2 {
 }
 
 .left-tile {
-  font-size: 16px;
+  font-size: 1em;
   line-height: 18px;
 }
 
 .center-tile {
-  font-size: 16px;
+  font-size: 1em;
   line-height: 21px;
 }
 
 .right-tile {
-  font-size: 16px;
+  font-size: 1em;
   line-height: 24px;
 }
 
@@ -141,7 +153,7 @@ h2 {
 
 #footer h3 {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 23px;
   text-align: center;
 }
